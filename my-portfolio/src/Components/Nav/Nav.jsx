@@ -42,7 +42,7 @@ function Nav() {
 
             <ul
                 className={`${openMenu
-                    ? 'left-0 transition-all duration-1000 ease-in transform translate-x-0' : '-left-1/2 transition-all duration-1000 ease-out transform -translate-x-1/2 bg-secondaryColor'} fixed top-0 h-[95vh] w-full  bg-secondaryColor text-white p-4 text-center flex flex-col gap-6 text-2xl lg:hidden`}>
+                    ? 'left-0 transition-all duration-1000 ease-in transform translate-x-0' : '-left-1/2 transition-all duration-1000 ease-out transform -translate-x-1/2 bg-secondaryColor'} fixed top-0 h-[95vh] w-full  bg-secondaryColor text-white p-4 text-center flex flex-col gap-10 text-2xl lg:hidden`}>
 
                 <li className="text-white hover:underline hover:text-black font-medium" onClick={closeMenu} >Intro</li>
                 <li className="text-white hover:underline hover:text-black font-medium" onClick={closeMenu} >About</li>

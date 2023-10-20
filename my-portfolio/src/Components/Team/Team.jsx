@@ -1,8 +1,15 @@
 
-function Team() {
+function Team(prop) {
+  const { teamData } = prop;
   return (
-    <div>
-      <h1>this is team</h1>
+    <div className="h-screen bg-secondaryColor">
+      <div className="bg-secondaryColor">
+        <div>
+        <img src="" alt="" />
+        </div>
+        <h2></h2>
+        <p></p>
+      </div>
     </div>
   )
 }

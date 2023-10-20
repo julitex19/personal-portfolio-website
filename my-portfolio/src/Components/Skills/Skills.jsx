@@ -26,18 +26,15 @@ function Skills() {
               <span>HTML</span>
               <span>90%</span>
             </div>
-            <div className="w-25 flex h-[5px] bg-gray-300 relative">
-              <div className="w-[90%] h-[5px] bg-primaryColor absolute top-0 left-0"></div>
-            </div>
+            <div className="w-[90%] h-[5px] bg-primaryColor bg-opacity-100"></div>
           </div>
+
           <div className="css">
             <div className="text-secondaryColor text-xl flex justify-between">
               <span>CSS</span>
               <span>70%</span>
             </div>
-            <div className="w-25 flex h-[5px] bg-gray-300 relative">
-              <div className="w-[70%] h-[5px] bg-primaryColor absolute top-0 left-0"></div>
-            </div>
+            <div className="w-[70%] h-[5px] bg-primaryColor bg-opacity-100"></div>
           </div>
 
           <div className="javascript">
@@ -45,9 +42,7 @@ function Skills() {
               <span>JavaScript</span>
               <span>60%</span>
             </div>
-            <div className="w-25 flex h-[5px] bg-gray-300 relative">
-              <div className="w-[60%] h-[5px] bg-primaryColor absolute top-0 left-0"></div>
-            </div>
+            <div className="w-[60%] h-[5px] bg-primaryColor bg-opacity-100"></div>
           </div>
 
           <div className="tailwind">
@@ -55,9 +50,7 @@ function Skills() {
               <span>Tailwind</span>
               <span>70%</span>
             </div>
-            <div className="w-25 flex h-[5px] bg-gray-300 relative">
-              <div className="w-[70%] h-[5px] bg-primaryColor absolute top-0 left-0"></div>
-            </div>
+            <div className="w-[70%] h-[5px] bg-primaryColor bg-opacity-100"></div>
           </div>
 
           <div className="react">
@@ -65,11 +58,10 @@ function Skills() {
               <span>REACT</span>
               <span>70%</span>
             </div>
-            <div className="w-25 flex h-[5px] bg-gray-300 relative">
-              <div className="w-[70%] h-[5px] bg-primaryColor absolute top-0 left-0"></div>
-            </div>
+            <div className="w-[70%] h-[5px] bg-primaryColor bg-opacity-100"></div>
           </div>
         </div>
+
 
       </div>
     </div>
