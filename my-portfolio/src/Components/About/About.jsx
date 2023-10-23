@@ -46,7 +46,7 @@ const About = () => {
                         <img src={profileImg} alt="" className='w-11/12 mx-auto my-0 rounded-2xl lg:h-[380px] ' />
                     </div>
                     <div className="lg:w-1/2">
-                        <p className="mt-5 px-3 lg:text-xl font-medium text-2xl">I’m Juliet<span className='text-primaryColor text-2xl'> {visibleLetters} </span></p>
+                        <p className="mt-5 px-3 lg:text-xl font-medium text-2xl">I’m Juliet and am a<span className='text-primaryColor text-2xl'> {visibleLetters} </span></p>
                         <div className=''>
                             <p className="my-5 px-3 lg:text-lg  text-justify font-normal">I'm based in Lagos, Nigeria. I am passionate about coding, solving problems through code, and creating intuitive, and dynamic user experiences. I can build any responsive website with a readable and clean code. I also make a website more interative With animations.</p>
                             <p className="px-3 lg:text-lg  text-justify font-normal">I'm a well-organized person, a problem solver with high attention to detail. I'm interested in the entire frontend spectrum. The main area of my expertise is HTML, CSS, JavaScript, REACT, building small and medium web apps, and coding interactive layouts.</p>

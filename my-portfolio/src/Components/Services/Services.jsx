@@ -30,7 +30,7 @@ function Services() {
         </div>
       </div>
       <div className='flex lg:justify-center gap-y-8 flex-col items-center lg:flex-row lg:gap-8'>
-        {items.map((item, index) => (
+        {items?.map((item, index) => (
           <div key={index} className='group rounded-xl bg-[#222222] w-72 lg:w-96 p-6 text-lg h-60 lg:h-72 cursor-pointer hover:bg-primaryColor transition-transform ease-in-out duration-300'>
             <div className='group-hover:scale-105 transition-transform ease-in-out duration-300 flex flex-col items-center'>
               <div className='group lg:text-4xl text-2xl text-primaryColor group-hover:text-white group-hover:scale-105'>{item.icon}</div>
