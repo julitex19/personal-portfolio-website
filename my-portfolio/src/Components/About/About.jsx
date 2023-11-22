@@ -30,7 +30,7 @@ const About = () => {
     }, [currentIndex, visibleTextIndex]);
 
     return (
-        <div className='flex items-center lg:h-screen mt-10 pb-20'>
+        <div id='/about' className='flex items-center lg:h-screen mt-10 pb-20'>
             <div className="">
                 <div className='py-8'>
                     <h1 className="font-medium text-4xl text-center font-secondaryFont ">About Me</h1>

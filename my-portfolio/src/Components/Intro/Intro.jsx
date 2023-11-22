@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 
 function Intro() {
-    const textItems = ['Front-end Developer', 'Freelancer', 'Tech Enthusiast'];
+    const textItems = ['Front-end Developer', 'Freelancer', 'Tech Enthusiast', 'Backend Developer'];
     const timeFrame = 200;
 
     const [visibleTextIndex, setVisibleTextIndex] = useState(0);
